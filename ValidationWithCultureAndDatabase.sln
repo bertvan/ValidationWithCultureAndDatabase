@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationWithCultureAndDatabase", "ValidationWithCultureAndDatabase\ValidationWithCultureAndDatabase.csproj", "{7469D3F8-CD49-4402-A724-FE017CD17B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHardCodedResources", "MyHardCodedResources\MyHardCodedResources.csproj", "{774C1193-CB21-4D4F-9CD6-E08D7CA363E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7469D3F8-CD49-4402-A724-FE017CD17B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7469D3F8-CD49-4402-A724-FE017CD17B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7469D3F8-CD49-4402-A724-FE017CD17B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7469D3F8-CD49-4402-A724-FE017CD17B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774C1193-CB21-4D4F-9CD6-E08D7CA363E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774C1193-CB21-4D4F-9CD6-E08D7CA363E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774C1193-CB21-4D4F-9CD6-E08D7CA363E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774C1193-CB21-4D4F-9CD6-E08D7CA363E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿@model ValidationWithCultureAndDatabase.Models.MyTestModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+Current culture: @Model.CurrentCulture
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(x => x.CurrentCulture)
+
+    @Html.ValidationSummary()
+
+    <div class="field">
+        @Html.LabelFor(x => x.Property1)
+        @Html.TextBoxFor(x => x.Property1)
+    </div>
+
+    <div class="field">
+        @Html.LabelFor(x => x.Property2)
+        @Html.TextBoxFor(x => x.Property2)
+    </div>
+
+    <div class="field">
+        @Html.LabelFor(x => x.Property3)
+        @Html.TextBoxFor(x => x.Property3)
+    </div>
+
+    <div class="field">
+        @Html.LabelFor(x => x.Property4)
+        @Html.TextBoxFor(x => x.Property4)
+    </div> 
+    
+    <button type="submit">OK</button>  
+}
